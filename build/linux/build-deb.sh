@@ -10,7 +10,7 @@ ARCH="amd64"
 PROJECT_ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
 
 # Binario e icono corregidos con la estructura de tu proyecto
-BINARY="$PROJECT_ROOT/build/bin/deb-installer"
+BINARY="$PROJECT_ROOT/build/bin/deb_installer"
 ICON="$PROJECT_ROOT/build/linux/icons.png"
 
 STAGING_DIR="$PROJECT_ROOT/build/deb/$PACKAGE_NAME"
